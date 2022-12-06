@@ -1,0 +1,546 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
+/*variables*/
+
+:root{
+    --primarycolor:#F2600D;
+    --secondaryColor:#FFBB7C;
+    --titleSize: 40px;
+    --parrafoSize: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: var(--fontFamily);
+
+}
+
+
+/*header*/
+
+header{
+    width: 100%;
+    position: relative;
+    
+
+}
+
+header .container-b{
+    background: var(--primarycolor);
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    
+}
+
+
+header nav ul li a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #ffffff !important;
+    font-family: var(--fontFamily);    
+    font-weight: 900 !important;
+    transition: .4s;
+    
+
+}   
+
+
+header nav ul li a:hover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: var(--primaryColor) !important;
+    
+    
+}
+
+
+
+
+
+header #hero .fondo-f{
+    position: relative;
+    z-index: 1;
+    padding-top: 800px ;
+    background: black;
+    
+    
+    
+}
+
+header #hero .fondo-f h1{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: -790px;
+    font-weight: 900;
+}
+
+header #hero .fondo-f h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    
+  }
+
+header #hero .fondo-f p{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 800;
+    
+}  
+
+
+header #hero .fondo-f button{
+    background: var(--primarycolor);
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    
+    
+}
+
+header #hero .foto-c{
+    padding: 0;
+
+}
+
+
+/* MAIN */
+
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+main #quiensoy{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: var(--secondaryColor);
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+
+main #quiensoy h2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 70px;
+
+}
+
+main #quiensoy .cont-left{
+    position: relative;
+}
+
+
+main #quiensoy .cont-left img{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 50px;
+    padding-top: 50px;
+
+}
+
+main #quiensoy .cont-left .fondoz{
+    height: 560px;
+    width: 600px;
+    position: relative;
+    right: 50px;
+    background: black;
+    border-radius: 5%;
+    
+
+}
+
+
+main #quiensoy .cont-right img{
+    width: 100px;
+    height: 100px;   
+    position: relative;
+    left: 500px;
+    
+}
+
+
+
+
+
+
+
+/*main perfil, experienca y estudios*/
+
+main #perfilprofesional{
+    background: #2c241f ;
+}
+
+main #perfilprofesional h1{
+    
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+main #perfilprofesional .img-left{
+    padding-top: 280px;
+    position: relative;
+    left: -70px;
+}
+
+
+main #perfilprofesional .img-hoja{
+    position: relative;
+    left: -100px;
+}
+
+main #perfilprofesional .text-right{
+    color: #ffffff;
+}
+
+main #perfilprofesional .text-right p{
+    position: relative;
+    padding-top: 70px;
+}
+
+main #perfilprofesional .text-right button{
+    position: relative;
+    left: 320px;
+    top: 250px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+main #experiencia{
+    background: #2c241f ;
+    color: #ffffff;
+}
+
+main #experiencia .img-center{
+    padding-top: 280px;
+    position: relative;
+    right: -170px;
+        
+}
+
+main #experiencia .img-sax{
+    position: relative;
+    right: -210px;
+}
+
+
+main #experiencia .text-center{
+    position: relative;
+    padding-top: 90px;
+}
+
+main #experiencia .text-center p{
+    position: relative;
+    padding-top: 70px;
+}
+
+main #experiencia .text-center button{
+    position: relative;
+    right: 250px;
+    top: 250px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main #estudios{
+    background: #2c241f ;
+    color: #ffffff;
+}
+
+main #estudios .img-leftdown{
+    padding-top: 280px;
+}
+
+main #estudios .img-sol{
+    position: relative;
+    right: 102px;
+}
+
+
+main #estudios .text-left{
+    position: relative;
+    padding-top: 70px;
+}
+
+main #estudios .text-left p{
+    position: relative;
+    padding-top: 70px;
+}
+
+
+main #estudios .text-left button{
+    position: relative;
+    left: 320px;
+    top: 250px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+/*MIS TRABAJOS*/
+
+MAIN #mistrabajos{
+    background: #2c241f;
+}
+
+
+main #mistrabajos h1{
+    color: #F49D6C;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 80px;
+}   
+
+
+main #mistrabajos .trabajos-left button{
+    position: relative;
+    background: var(--primarycolor);
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+    border-radius: 15%;
+    left: 730px;
+}
+
+
+main #mistrabajos .trabajos-left img{
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+main #mistrabajos .trabajos-center{
+    position: relative;
+    left: 140px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+main #mistrabajos .trabajos-right{
+    position: relative;
+    /* left: 150px; */
+    padding-top: 80px;
+}
+
+
+main #mistrabajos .trabajos-right button{
+    position: relative;
+    background: var(--primarycolor);
+    color: black;
+    font-weight: 800;
+    border-radius: 15%;
+    top: 200px;
+    left: -868px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*habilidades*/
+
+
+main #habilidades{
+    background: #FAD3AF ;
+}
+
+
+main #habilidades h2{
+    color: #E95706;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 350%;
+    font-weight: 1000;
+    
+
+
+}
+
+
+
+
+
+main #habilidades .img-hab1 .rectangulo1{
+    width: 500px;
+    height: 600px;    
+    background: #31271D;
+    position: relative;
+    left: -200px;
+    margin-top: 90px;
+    border-radius: 10%;
+    text-align: center;
+    
+}
+
+main #habilidades .img-hab1 img{
+    position: relative;
+    padding-top: 50px;
+}
+
+main #habilidades .img-hab1 h2{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+
+
+main #habilidades .img-hab2 .rectangulo2{
+    width: 700px;
+    height: 800px;    
+    background: #2C241F;
+    position: relative;
+    left: -140px;
+    padding-top: 70px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+main #habilidades .img-hab2 h2{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+main #habilidades .img-hab3 .rectangulo3{
+    width: 500px;
+    height: 600px;    
+    background: #31271D;
+    margin-top: 90px;
+    left: 120px;
+    position: relative;
+    border-radius: 10%;
+    
+}
+
+
+main #habilidades .img-hab3 .rectangulo3 img{
+    position: relative;
+    height: 45%;
+    width: 40%;
+    top: 50px;
+    left: 50px;
+}
+
+main #habilidades .img-hab3 .rectangulo3 h2{
+    position: relative;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+
+/*footer*/
+
+footer #piedepagina{
+    width: 100%;
+    background: #FFBB7C;
+    
+    
+    
+}
+
+
+footer #piedepagina img{
+    position: relative;
+    height: 20%;
+    width: 30%;
+    left: -250px;
+}
+
+footer #piedepagina .contacto-pie img{
+    position: relative;
+    height: 50%;
+    width: 30%;
+    left: -250px;
+    margin-top: 50px;
+    
+
+}
+
+
+footer #piedepagina .redes-pie img{
+    position: relative;
+    height: 50%;
+    width: 30%;    
+    left: -390px;
+    margin-top: 50px;
+
+}
+
+
+
+
+footer #piedepagina .email-pie img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 900px;
+    bottom: 150px;
+   
+}
+
+footer #piedepagina .email-pie h2{
+    position: relative;
+    left: 990px;
+    bottom: 190px;
+    
+}
+
+
+footer #piedepagina .email-pie h3{
+    position: relative;
+    left: 990px;
+    bottom: 190px;
+    font-size: 24px;
+    font-weight: 600;
+
+    
+}
